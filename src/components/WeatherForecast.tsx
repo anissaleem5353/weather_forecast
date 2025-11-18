@@ -30,7 +30,7 @@ const WeatherForecast = ({ data }: WeatherForecastProps) => {
       acc[date] = {
         temp_min: forecast.main.temp_min,
         temp_max: forecast.main.temp_max,
-        humidity: forecast.main.humidit,
+        humidity: forecast.main.humidity,
         wind: forecast.wind.speed,
         weather: forecast.weather[0],
         date: forecast.dt,
