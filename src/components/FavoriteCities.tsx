@@ -1,4 +1,3 @@
-import React from "react";
 import { useFavorite } from "../hooks/UseFavorite";
 import { ScrollArea } from "./ui/scroll-area";
 import { useNavigate } from "react-router-dom";
@@ -57,7 +56,7 @@ function FavoriteCityTablet({
       className="relative flex min-w-[250px] cursor-pointer items-center gap-3 rounded-lg border bg-card p-4 pr-8 shadow-sm transition-all hover:shadow-md"
     >
       <Button
-        className="absolute right-1 top-1 h-6 w-6 rounded-full p-0 hover:texr-destructive-foreground group-hover:opacity-100"
+        className="absolute right-1 top-1 h-6 w-6 rounded-full p-0 hover:texr-destructive-foreground group-hover:opacity-100 cursor-pointer"
         onClick={(e) => {
           e.stopPropagation();
           onRemove(id);

@@ -1,4 +1,3 @@
-import React from "react";
 import type { ForecastData } from "../api/types";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import {

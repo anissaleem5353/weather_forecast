@@ -1,4 +1,3 @@
-import React from "react";
 import WeatherLogo from "./WeatherLogo";
 import { useTheme } from "../context/ThemeProvider";
 import { Moon, Sun } from "lucide-react";

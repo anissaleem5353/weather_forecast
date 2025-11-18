@@ -1,4 +1,3 @@
-import React from "react";
 import type { WeatherData } from "../api/types";
 import { Star } from "lucide-react";
 import { Button } from "./ui/button";

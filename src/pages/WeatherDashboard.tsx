@@ -14,7 +14,6 @@ import WeatherDetails from "../components/WeatherDetails";
 import WeatherForecast from "../components/WeatherForecast";
 import FavoriteCities from "../components/FavoriteCities";
 
-
 const WeatherDashboard = () => {
   const {
     coordinates,
@@ -104,6 +103,7 @@ const WeatherDashboard = () => {
           size={"icon"}
           onClick={handleRefresh}
           disabled={weatherQuery.isFetching || forecastQuery.isFetching}
+          className="cursor-pointer"
         >
           <RefreshCcw
             className={`h-4 w-4 ${
