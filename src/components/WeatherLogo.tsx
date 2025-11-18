@@ -2,7 +2,11 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { CloudMoon, CloudSun } from "lucide-react";
 
-export default function WeatherLogo({ theme }) {
+interface WeatherLogoProps {
+  theme: "light" | "dark" | "system";
+}
+
+export default function WeatherLogo({ theme }: WeatherLogoProps) {
   return (
     <motion.div
       whileHover={{ scale: 1.05, rotate: 1 }}
