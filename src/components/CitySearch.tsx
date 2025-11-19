@@ -50,7 +50,7 @@ const CitySearch = () => {
         onClick={() => setOpen(true)}
       >
         <Search className="mr-2 h-4 w-4" />
-        Search cities...
+        <p className="hidden sm:flex">Search cities...</p>
       </Button>
 
       <AnimatePresence>

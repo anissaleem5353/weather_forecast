@@ -21,7 +21,7 @@ export default function WeatherLogo({ theme }: WeatherLogoProps) {
 
       <Link
         to="/"
-        className={`relative font-extrabold text-2xl tracking-wide uppercase transition-all duration-500
+        className={`relative font-extrabold sm:text-2xl tracking-wide uppercase transition-all duration-500
           bg-clip-text text-transparent 
           ${
             theme === "dark"
